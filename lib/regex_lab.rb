@@ -15,7 +15,7 @@ def words_five_letters_long(words)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(words)
-  words.scan(/\b[AEIOU]/)
+  words.scan(/\^[AEIOU]/)
 end
 
 def valid_phone_number?(numbers)
