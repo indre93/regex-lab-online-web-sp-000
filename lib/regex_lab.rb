@@ -19,6 +19,5 @@ def first_word_capitalized_and_ends_with_punctuation?(words)
 end
 
 def valid_phone_number?(numbers)
-  
-end
 
+end
