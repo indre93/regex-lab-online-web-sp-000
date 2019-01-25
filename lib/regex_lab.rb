@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(words)
-  if words.match(/^[aeiouAEIOU]/)
+  if words.match(/[aeiouAEIOU]/)
     return true
   else
     return false
@@ -7,7 +7,7 @@ def starts_with_a_vowel?(words)
 end
 
 def words_starting_with_un_and_ending_with_ing(words)
-  words.scan(/\^[un]+$[ing]/)
+  words.scan(/\b[un]+$[ing]/)
 end
 
 def words_five_letters_long(words)
