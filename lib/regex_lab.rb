@@ -7,11 +7,11 @@ def starts_with_a_vowel?(words)
 end
 
 def words_starting_with_un_and_ending_with_ing(words)
-  words.scan(/\^w/)
+  words.scan(/\^A+un/)
 end
 
 def words_five_letters_long(words)
-  words.scan(/)
+  words.scan(/^A/)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(words)
